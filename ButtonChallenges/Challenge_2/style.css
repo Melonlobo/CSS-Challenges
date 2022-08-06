@@ -1,0 +1,19 @@
+body {
+  background-color: #000;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.btn {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 0 5px 1px #ffff00;
+  border: 3px solid #ffff00;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1000px 1000px #ffff00;
+  transition: all 1s ease-in-out;
+}

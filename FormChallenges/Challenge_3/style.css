@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  font-weight: 700;
+  height: 100vh;
+  margin: auto;
+}
+.box-root h1 {
+  margin-top: 10vh;
+  text-align: center;
+}
+.formbg-outer {
+  width: 25rem;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: #00f;
+}
+a:hover {
+  color: #9e9eff;
+}
+.formbg {
+  box-shadow: 0 0 5px 1px #999;
+  padding: 2rem;
+  width: 20rem;
+}
+.formbg-inner > form > div {
+  margin-top: 1rem;
+}
+form label {
+  font-size: 0.8rem;
+}
+.formbg-outer a {
+  font-size: 0.8rem;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 0.2rem;
+}
+.reset-pass {
+  float: right;
+}
+.field-checkbox input {
+  width: fit-content;
+  cursor: pointer;
+}
+.field-checkbox + div input {
+  background-color: #0000ff;
+  border: 2px solid #00f;
+  color: #fff;
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+  font-weight: 900;
+}
+.field-checkbox + div input:hover {
+  background-color: #fff;
+  color: #00f;
+  cursor: pointer;
+}
+.ssolink {
+  margin: auto;
+}
+.footer-link {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem;
+}
+.listing {
+  padding: 1rem;
+}
+.listing span {
+  padding: 0 0.5rem;
+}

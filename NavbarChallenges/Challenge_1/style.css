@@ -1,0 +1,25 @@
+* {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+body {
+  height: 100vh;
+  display: flex;
+}
+nav {
+  margin: auto;
+  background-color: #222;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+nav a {
+  text-decoration: none;
+  color: #999;
+  padding: 0.5rem 1.5rem;
+}
+nav a:hover {
+  color: aqua;
+}

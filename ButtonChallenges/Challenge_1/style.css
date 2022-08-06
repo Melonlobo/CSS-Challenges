@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  display: flex;
+}
+.container {
+  margin: auto;
+  border-radius: 2px;
+  padding: 0.5rem 1.5rem;
+  background-color: #008cff;
+  position: relative;
+}
+.container a {
+  text-decoration: none;
+  color: #fff;
+}
+.badge {
+  background-color: #333;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}

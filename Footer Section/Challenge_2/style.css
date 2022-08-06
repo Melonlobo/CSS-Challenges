@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #000055;
+  width: 100%;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #b9b9b9;
+  color: #fff;
+  padding: 1rem 10%;
+}
+.logo-details {
+  font-size: 2rem;
+}
+.media-icons {
+  display: flex;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+.media-icons i {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.fa-facebook-f {
+  background-color: #4242c0e7;
+}
+.fa-facebook-f:hover {
+  background-color: #fff;
+  color: #4242c0e7;
+}
+.fa-twitter {
+  background-color: #009bd8;
+}
+.fa-twitter:hover {
+  color: #009bd8;
+  background-color: #fff;
+}
+.fa-instagram {
+  background-color: #f33535;
+}
+.fa-instagram:hover {
+  color: #f33535;
+  background-color: #fff;
+}
+.fa-linkedin-in {
+  background-color: #2b2bc7;
+}
+.fa-linkedin-in:hover {
+  color: #2b2bc7;
+  background-color: #fff;
+}
+.fa-youtube {
+  background-color: #ff0000;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+  background-color: #fff;
+}
+.link_name {
+  font-size: 1.5rem;
+  position: relative;
+}
+.link_name::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3ch;
+  height: 2px;
+  background-color: #fff;
+}
+.link-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 2rem;
+}
+.box li {
+  margin: 1rem 0;
+}
+li {
+  list-style: none;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.box a {
+  color: #8b81a7;
+}
+.box a:hover {
+  color: #fff;
+}
+.input-box input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #fff;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.link_name + li input {
+  background-color: transparent;
+  color: #fff;
+}
+.input-box input {
+  background-color: #fff;
+  color: #000055;
+}
+.input-box input:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000055;
+}
+.bottom-details {
+  width: 100%;
+  color: #8b81a7;
+  padding: 1.5rem 10rem;
+  background-color: #000047;
+}
+.bottom-details a {
+  color: #8b81a7;
+}
+.bottom_text {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright_text a {
+  margin: 0 0.5rem;
+}
+.policy_terms {
+  display: flex;
+  gap: 1rem;
+}
+.policy_terms a:hover {
+  color: #fff;
+}

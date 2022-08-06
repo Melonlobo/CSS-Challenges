@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue: #5473ff;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom left, var(--blue), #7bff00);
+  font-family: sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  width: fit-content;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+.center h1 {
+  font-family: Sansita Swashed;
+  font-weight: 600;
+  padding: 1rem 0.6rem;
+  position: relative;
+  letter-spacing: 0.3rem;
+}
+.center h1::before {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  height: 3rem;
+  width: 0.3rem;
+  background-color: var(--blue);
+}
+.inputbox {
+  padding: 2rem 0;
+  position: relative;
+}
+.inputbox input {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  border: 0.13rem solid #000;
+  font-size: 1rem;
+}
+.inputbox span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-0.58rem);
+  left: 0.8rem;
+}
+input:focus {
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+}
+div:last-child {
+  width: fit-content;
+}
+.inputbox .btn {
+  border-color: var(--blue);
+  background-color: var(--blue);
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  outline: none;
+}
+.btn:hover {
+  color: var(--blue);
+  background-color: #fff;
+  cursor: pointer;
+}
+.btn:focus {
+  transform: translateY(0);
+  color: var(--blue);
+  background-color: #fff;
+}
