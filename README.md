@@ -76,4 +76,4 @@
 
 ---
 
-### [Click here]() to see the deployed solutions of all the challenges.
+### [Click here](https://css-challenges-melonlobo.vercel.app) to see the deployed solutions of all the challenges.

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html::-webkit-scrollbar {
+    width: 1vw;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #a2a2ff;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #000046;
+    border-radius: 500px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: Pacifico, Poppins, sans-serif;
+    padding: 2rem 4rem;
+    background-image: linear-gradient(to left, #a2a2ff, #000046);
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.title {
+    font-size: 3.2rem;
+    margin: auto;
+    text-align: center;
+}
+
+.challenge-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sub-title {
+    font-size: 1.8rem;
+    font-family: Poppins, sans-serif;
+}
+
+.links {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    font-family: Poppins, sans-serif;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.links a:hover,
+.links a:focus {
+    background: transparent;
+}
+
+.links a:visited {
+    background-color: #530253;
+}
